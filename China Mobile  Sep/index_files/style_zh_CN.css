@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*common*/
+.col_orge{ color: #d6a111;}
+
+
+/*select-tx*/
+.i-tx-sfile,.i-tx-yes,.i-tx-no{ background-image:url(../images/cloud_ico.png); background-repeat:no-repeat;display: inline-block;;}
+.boxIframeText{}
+.select-tx{ margin:10px; border:1px solid #eaeaea; padding:5px 0;}
+.search-noman{ background:#f9f9f9; padding:37px 0; text-align:center; font-size:14px; font-weight:bold;}
+.i-blueplus,.i-greyminus{ width:14px; height:14px; vertical-align:middle;}
+.i-bluemail{ width:14px; height:10px; vertical-align:middle;}
+.i-bluephone{ width:16px; height:14px; vertical-align:middle;}
+.i-greyminus{ background-position:-723px -122px;}
+
+.R0{font-weight:700;background: rgba(231, 231, 231, 0.8);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cce7e7e7,endColorstr=#cce7e7e7);text-align:center;font-size:14px;position:absolute;left:-1px;top:-20px;z-index:20020;width:100%; height: 100%;padding:0;line-height:300px;border:#e7e7cd 1px solid; padding-top: 20px;}
+.R0_in{color:#3b5998; zoom:1;width: 100%; height: 100%;}
+.i-arrOn,.i-arrOff{ width:12px; height:12px;display:inline-block; background-image:url(../images/main_ico.png);background-repeat:no-repeat;cursor:pointer; vertical-align: middle;margin:3px 5px 0 0; overflow: hidden;}
+.i-arrOff{background-position:-285px -134px;}
+.i-arrOn{background-position:-285px -119px;}
+
+
+/*未解锁图标*/
+.i-notPassed{ background-image:url(../images/ico.png); background-repeat:no-repeat;display: inline-block; vertical-align:middle; width:14px; height:14px;}
+.i-notPassed{ background-position: -601px -510px;}
+
+
+/* 9项新手指引*/
+.sg_backdrop{opacity: 0.3;filter: alpha(opacity=30);  zoom: 1; background:#000; position: absolute; top:0;  left:0; z-index:1000; width:100%; height:100%;}
+
+.cls{ _position:relative;float: right; width: 32px; height: 32px; overflow: hidden; line-height: 200px; }
+.gbn{ _position:relative;width: 94px; height: 30px; display: inline-block; overflow: hidden; line-height: 200px;}
+
+.gb1,.gb2,.gb3,.gb4,.gb5,.gb6,.gb7,.gb8,.gb9{position: absolute;z-index: 3001;}
+.gb1{  left: 96px; top: 113px;  width: 619px; height: 308px;}
+.gb2{width: 653px; height: 248px;}
+.gb3{width: 556px; height: 222px;}
+.gb4{width: 366px; height: 290px;}
+.gb5{width: 384px; height: 289px;}
+.gb6{width: 463px; height: 312px;}
+.gb7{width: 409px; height: 315px;}
+.gb8{width: 468px; height: 292px;}
+.gb9{width: 386px; height: 292px;}
+
+.gb1 .bg{width: 619px; height: 308px; background: url(../images/newguaid/d1.png) no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resource/se/images/newguaid/d1.png" ,sizingMethod="crop");}
+.gb2 .bg{width: 653px; height: 248px; background: url(../images/newguaid/d2.png) no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resource/se/images/newguaid/d2.png" ,sizingMethod="crop");}
+.gb3 .bg{width: 556px; height: 222px; background: url(../images/newguaid/d3.png) no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resource/se/images/newguaid/d3.png" ,sizingMethod="crop");}
+.gb4 .bg{width: 366px; height: 290px; background: url(../images/newguaid/d4.png) no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resource/se/images/newguaid/d4.png" ,sizingMethod="crop");}
+.gb5 .bg{width: 384px; height: 289px; background: url(../images/newguaid/d5.png) no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resource/se/images/newguaid/d5.png" ,sizingMethod="crop");}
+.gb6 .bg{width: 463px; height: 312px; background: url(../images/newguaid/d6.png) no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resource/se/images/newguaid/d6.png" ,sizingMethod="crop");}
+.gb7 .bg{width: 409px; height: 315px; background: url(../images/newguaid/d7.png) no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resource/se/images/newguaid/d7.png" ,sizingMethod="crop");}
+.gb8 .bg{width: 468px; height: 292px; background: url(../images/newguaid/d8.png) no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resource/se/images/newguaid/d8.png" ,sizingMethod="crop");}
+.gb9 .bg{width: 386px; height: 292px; background: url(../images/newguaid/d9.png) no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resource/se/images/newguaid/d9.png" ,sizingMethod="crop");}
+
+.gb1 .cls{ margin: 27px 25px 0 0; }
+.gb2 .cls{ margin: 44px 8px 0 0;}
+.gb3 .cls{ margin: 25px 12px 0 0;}
+.gb4 .cls{ margin: 88px 3px 0 0;}
+.gb5 .cls{ margin: 88px 6px 0 0;}
+.gb6 .cls{ margin: 90px 40px 0 0;}
+.gb7 .cls{ margin: 117px 17px 0 0;}
+.gb8 .cls{ margin: 85px 42px 0 0;}
+.gb9 .cls{ margin: 88px 6px 0 0;}
+
+.gb1 .gbn{ margin: 222px 0 0 360px;}
+.gb2 .gbn{ margin: 165px 0 0 411px;}
+.gb3 .gbn{ margin: 144px 0 0 313px;}
+.gb4 .gbn{ margin: 208px 0 0 162px;}
+.gb5 .gbn{ margin: 208px 0 0 180px;}
+.gb6 .gbn{ margin: 230px 0 0 182px;}
+.gb7 .gbn{ margin: 234px 0 0 207px;}
+.gb8 .gbn{ margin: 208px 0 0 182px;}
+.gb9 .gbn{ margin: 208px 0 0 182px;}
+
+
+/*提示 屏幕缩放提示*/
+.top-navbarTip_yellow{ position: relative;  width:100%;padding:10px 0; background: #fff2d1; text-align:center; color:#94724a;}
+.top-navbarTip_yellow span,.top-navbarTip_yellow a.dtno{ vertical-align: middle;display: inline-block;}
+.top-navbarTip_yellow a.clsbtn{position:absolute; top:6px; right:10px; width:13px; height:13px; background: url("../images/main_ico.png") no-repeat -23px -15px;}
+
+.compose_shadow{ border-bottom: 1px solid #e5e5e5;}
+
+/*OA邮箱容量预警*/
+.mail_volume{ padding: 5px 10px;}
+.mail_progress{height:9px;overflow:hidden;}
+.mail_progress .mail_bar{float:left;width:0;height:100%;font-size:12px;color:#fff;text-align:center; }
+.mail_volume_txt{ padding-top: 5px; color: #444;}
+.mp_normal{background-color:#f7f7f7; border: 1px solid #005c9c;}
+.mp_normal .mail_bar{background: #0280d0;}
+.mp_warning{background-color:#f7f7f7; border: 1px solid #e1c885;}
+.mp_warning .mail_bar{background: #ec9303;}
+
+/*写信页下部选项*/
+.wrter_tool{ height: 24px; line-height: 24px;}
+.wrter_tool_lt{ float: left;}
+.wrter_tool_rt{ float: right;height: 24px; line-height: 24px;}
+.wrter_switch_on,.wrter_switch_off{width: 8px; height: 9px; background-image: url("../images/edit.png"); background-repeat: no-repeat;vertical-align: middle;}
+.wrter_switch_on{background-position: -396px -80px;}
+.wrter_switch_off{background-position: -396px -96px;}
+.wrter_tool_rt .wrter_switch_on,.wrter_tool_rt .wrter_switch_off{ margin: 0 10px;}
+.wrt_slt{ display: inline-block; height: 24px; line-height: 24px; vertical-align: middle;}
+.i-mcok{ width: 13px; height: 11px; background-image: url("../images/edit.png"); background-repeat: no-repeat; background-position: -421px -78px; vertical-align: middle;}
+.pop_wrt_slt{ display: inline-block; vertical-align: middle; width: 250px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
+.module_pop li .i-mcok{ visibility: hidden;}
+.module_pop li.on .i-mcok{ visibility: visible;}
+
+/*别名管理*/
+.add_acount{ height: 25px; line-height: 25px; padding-top: 10px; text-indent: 10px;}
+/*step*/
+.alias_fame{ padding-top: 15px;}
+.alias_fame li{ padding-bottom: 5px;}
+.alias_fame li:before,.alias_fame li:after {content:"";display:table;}
+.alias_fame li:after {clear:both;overflow:hidden;}
+.alias_fame li {*zoom:1; /* IE < 8 */}
+.alias_lt{ width: 125px;float: left; line-height: 26px; text-align: right;}
+.alias_rt{ margin-left: 140px;}
+
+#pageDefault #sidebar .nav .count{ display: inline-block; vertical-align: middle;}
+.mdWrap{ display: inline-block; *display:inline; *zoom:1; vertical-align: middle;}
+
+.webuploader-container{ display: inline-block; width: 110px; overflow: hidden;}
+.webuploader-pick{width: 110px; }
+
+
+/*针对广州银行收件人输入时自动匹配的 如无此功能，可删除*/
+.groupInfo{ display: block; margin: 0 15px 5px 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-break:break-all; word-wrap:break-word}
+.autoComplete a{ height: auto;}
+/*end*/
